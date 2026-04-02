@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meriem BELMOKHTAR — Portfolio</title>
+  <meta name="description" content="Portfolio de Meriem BELMOKHTAR, étudiante en BTS SIO SISR.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="ambient" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="blob blob-4"></div>
+  </div>
+
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <nav class="nav" aria-label="Navigation principale">
+    <a href="#accueil" class="nav__logo">MB.</a>
+    <ul class="nav__links">
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#experiences">Expériences</a></li>
+      <li><a href="#themes">Thèmes étudiés</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#veille">Veille</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav__burger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <main class="page">
+
+    <section class="hero" id="accueil">
+      <div class="hero__orb hero__orb-1" aria-hidden="true"></div>
+      <div class="hero__orb hero__orb-2" aria-hidden="true"></div>
+      <div class="hero__orb hero__orb-3" aria-hidden="true"></div>
+
+      <div class="hero__inner">
+
+        <div class="hero__badge hero-anim">
+          <span class="dot anim-pulse"></span>
+          Disponible pour alternance
+        </div>
+
+        <h1 class="hero__title hero-anim">
+          <span class="ln">Meriem</span>
+          <span class="lr text-grad">BELMOKHTAR</span>
+        </h1>
+
+        <p class="hero__sub hero-anim">
+          Étudiante en <strong>BTS SIO option SISR</strong>
+        </p>
+
+        <div class="hero__cta hero-anim">
+          <a href="#projets" class="btn-cta">Voir mes projets</a>
+          <a href="#contact" class="btn-ghost">Me contacter</a>
+        </div>
+
+        <div class="hero__scroll hero-anim anim-float" aria-hidden="true">
+          <div class="hero__scroll-line"></div>
+          <span>Scroll</span>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section" id="about">
+
+      <p class="section__label reveal">Qui suis-je ?</p>
+      <h2 class="section__title reveal d1">À <em>propos</em> de moi</h2>
+
+      <div class="about__grid">
+
+        <div class="about__visual reveal">
+          <div class="about__ring" aria-hidden="true"></div>
+          <div class="about__ring2" aria-hidden="true"></div>
+          <div class="about__avatar">MB</div>
+        </div>
+
+        <div class="about__content">
+          <p class="reveal d1">
+            Bonjour ! Je suis <strong>Meriem BELMOKHTAR</strong>, étudiante en
+            <strong>BTS SIO option SISR</strong> (Solutions d'Infrastructure, Systèmes et Réseaux).
+            Passionnée par l'informatique, je me spécialise dans l'administration systèmes et réseaux.
+          </p>
+          <p class="reveal d2">
+            Mon cursus m'a permis de développer des compétences solides en
+            <strong>administration Linux/Windows</strong>, en <strong>configuration réseau</strong>
+            (Cisco, VLANs, routage) et en <strong>virtualisation</strong>.
+          </p>
+
+          <p class="about__skills-title reveal d4">Technologies & Outils</p>
+          <div class="about__pills reveal d4">
+            <span class="pill acc">Hyper-V</span>
+            <span class="pill acc">Windows Server / AD</span>
+            <span class="pill acc">Cisco (Routage / Switch)</span>
+            <span class="pill">Debian / Kali Linux</span>
+            <span class="pill">Proxmox</span>
+            <span class="pill">Zabbix</span>
+            <span class="pill">Ansible</span>
+            <span class="pill">Pare-feu Stormshield</span>
+            <span class="pill">Python</span>
+            <span class="pill">PowerShell / Bash</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="about__cards">
+        <div class="info-card reveal"><div class="ic">🎓</div><strong>Formation</strong><span>BTS SIO SISR</span></div>
+        <div class="info-card reveal d1"><div class="ic">📍</div><strong>Localisation</strong><span>Argenteuil, IDF</span></div>
+        <div class="info-card reveal d2"><div class="ic">🌐</div><strong>Langues</strong><span>FR · EN</span></div>
+        <div class="info-card reveal d3"><div class="ic">🛡️</div><strong>Intérêt</strong><span>Cybersécurité</span></div>
+        <div class="info-card reveal d4"><div class="ic">⚡</div><strong>Statut</strong><span>Disponible</span></div>
+      </div>
+
+    </section>
+
+    <section class="section" id="experiences">
+
+      <p class="section__label reveal">Mon parcours</p>
+      <h2 class="section__title reveal d1">Expé<em>riences</em></h2>
+
+      <div class="exp__layout">
+
+        <aside class="exp__aside reveal">
+          <p class="section__label">Formation & Stages</p>
+          <p>Un parcours orienté réseaux et systèmes, construit autour de mises en pratique concrètes et de stages en entreprise.</p>
+          <a href="#contact" class="btn-cta">Me contacter</a>
+        </aside>
+
+        <div class="timeline">
+
+          <article class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <p class="tl-period">2024 — 2026</p>
+              <h3 class="tl-role">BTS SIO SISR</h3>
+              <p class="tl-company">École Nationale de Commerce · Paris 17</p>
+              <div class="tl-tags">
+                <span class="pill">Linux</span>
+                <span class="pill">Windows Server</span>
+                <span class="pill">Cisco</span>
+                <span class="pill">Virtualisation</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="tl-item reveal d1">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <p class="tl-period">Janvier à Février 2026</p>
+              <h3 class="tl-role">Stage de deuxième année</h3>
+              <p class="tl-company">OTO Technology</p>
+              <p class="tl-desc">Infrastructures & Virtualisation : Migration et déploiement de serveurs virtuels sous Hyper-V et Proxmox avec gestion de la Haute Disponibilité (HA).</p>
+              <p class="tl-desc">Services Réseaux : Administration Active Directory (utilisateurs, groupes, GPO) et maintenance des équipements Cisco.</p>
+              <p class="tl-desc">Supervision & Téléphonie : Déploiement Zabbix pour le monitoring du parc et administration d'un serveur 3CX (VoIP).</p>
+              <p class="tl-desc">Support : Support technique N1/N2 via Freshservice.</p>
+              <div class="tl-tags">
+                <span class="pill">Hyper-V</span>
+                <span class="pill">Proxmox</span>
+                <span class="pill">Zabbix</span>
+                <span class="pill">Active Directory</span>
+                <span class="pill">3CX VoIP</span>
+                <span class="pill">Freshservice</span>
+              </div>
+
+              <div class="tl-gallery">
+                <p class="tl-gallery__label">📸 Photos du stage</p>
+                <div class="tl-gallery__grid">
+                  <div class="stage-photo" data-src="img/stage2/stage2-1.jpeg" data-caption="OTO Technology · Jan/Fév 2026">
+                    <img src="img/stage2/stage2-1.jpeg" alt="Stage 2 photo 1" onerror="this.closest('.stage-photo').style.display='none'">
+                    <div class="stage-photo__overlay">🔍</div>
+                  </div>
+                  <div class="stage-photo" data-src="img/stage2/stage2-2.jpeg" data-caption="OTO Technology · Jan/Fév 2026">
+                    <img src="img/stage2/stage2-2.jpeg" alt="Stage 2 photo 2" onerror="this.closest('.stage-photo').style.display='none'">
+                    <div class="stage-photo__overlay">🔍</div>
+                  </div>
+                  <div class="stage-photo" data-src="img/stage2/stage2-3.jpeg" data-caption="OTO Technology · Jan/Fév 2026">
+                    <img src="img/stage2/stage2-3.jpeg" alt="Stage 2 photo 3" onerror="this.closest('.stage-photo').style.display='none'">
+                    <div class="stage-photo__overlay">🔍</div>
+                  </div>
+                  <div class="stage-photo" data-src="img/stage2/stage2-4.png" data-caption="OTO Technology · Jan/Fév 2026">
+                    <img src="img/stage2/stage2-4.png" alt="Stage 2 photo 4" onerror="this.closest('.stage-photo').style.display='none'">
+                    <div class="stage-photo__overlay">🔍</div>
+                  </div>
+                  <div class="stage-photo" data-src="img/stage2/stage2-5.png" data-caption="OTO Technology · Jan/Fév 2026">
+                    <img src="img/stage2/stage2-5.png" alt="Stage 2 photo 5" onerror="this.closest('.stage-photo').style.display='none'">
+                    <div class="stage-photo__overlay">🔍</div>
+                  </div>
+                  <div class="stage-photo" data-src="img/stage2/stage2-6.png" data-caption="OTO Technology · Jan/Fév 2026">
+                    <img src="img/stage2/stage2-6.png" alt="Stage 2 photo 6" onerror="this.closest('.stage-photo').style.display='none'">
+                    <div class="stage-photo__overlay">🔍</div>
+                  </div>
+                  <div class="stage-photo" data-src="img/stage2/stage2-7.png" data-caption="OTO Technology · Jan/Fév 2026">
+                    <img src="img/stage2/stage2-7.png" alt="Stage 2 photo 7" onerror="this.closest('.stage-photo').style.display='none'">
+                    <div class="stage-photo__overlay">🔍</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </article>
+
+          <article class="tl-item reveal d2">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <p class="tl-period">Mai à Juin 2025</p>
+              <h3 class="tl-role">Stage de première année</h3>
+              <p class="tl-company">OTO Technology</p>
+              <p class="tl-desc">Déploiement matériel : Préparation, configuration et installation de postes de travail et périphériques (bornes Wi-Fi, caméras).</p>
+              <p class="tl-desc">Infrastructure Réseau : Brassage de baies informatiques et maintenance des équipements réseau.</p>
+              <p class="tl-desc">Assistance Utilisateurs : Diagnostic et résolution d'incidents via Freshservice. Gestion du parc sous Microsoft 365.</p>
+              <p class="tl-desc">Réseaux & Connectivité : Configuration d'équipements Ubiquiti et Cisco Meraki (bornes Wi-Fi, switches).</p>
+              <div class="tl-tags">
+                <span class="pill">Cisco Meraki</span>
+                <span class="pill">Ubiquiti</span>
+                <span class="pill">Microsoft 365</span>
+                <span class="pill">Freshservice</span>
+              </div>
+
+              <div class="tl-gallery">
+                <p class="tl-gallery__label">📸 Photos du stage</p>
+                <div class="tl-gallery__grid">
+                  <div class="stage-photo" data-src="img/stage1/stage1-1.jpeg" data-caption="OTO Technology · Mai/Juin 2025">
+                    <img src="img/stage1/stage1-1.jpeg" alt="Stage 1 photo 1" onerror="this.closest('.stage-photo').style.display='none'">
+                    <div class="stage-photo__overlay">🔍</div>
+                  </div>
+                  <div class="stage-photo" data-src="img/stage1/stage1-2.jpeg" data-caption="OTO Technology · Mai/Juin 2025">
+                    <img src="img/stage1/stage1-2.jpeg" alt="Stage 1 photo 2" onerror="this.closest('.stage-photo').style.display='none'">
+                    <div class="stage-photo__overlay">🔍</div>
+                  </div>
+                  <div class="stage-photo" data-src="img/stage1/stage1-3.jpeg" data-caption="OTO Technology · Mai/Juin 2025">
+                    <img src="img/stage1/stage1-3.jpeg" alt="Stage 1 photo 3" onerror="this.closest('.stage-photo').style.display='none'">
+                    <div class="stage-photo__overlay">🔍</div>
+                  </div>
+                  <div class="stage-photo" data-src="img/stage1/stage1-4.jpeg" data-caption="OTO Technology · Mai/Juin 2025">
+                    <img src="img/stage1/stage1-4.jpeg" alt="Stage 1 photo 4" onerror="this.closest('.stage-photo').style.display='none'">
+                    <div class="stage-photo__overlay">🔍</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </article>
+
+          <article class="tl-item reveal d3">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <p class="tl-period">2021 — 2024</p>
+              <h3 class="tl-role">Baccalauréat STMG — Mention Bien</h3>
+              <p class="tl-company">Lycée George Braque · Argenteuil</p>
+              <p class="tl-desc">Bac Technologique STMG option Marketing.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="themes">
+
+      <p class="section__label reveal">Au cœur de ma formation</p>
+      <h2 class="section__title reveal d1">Thèmes <em>Étudiés</em></h2>
+
+      <div class="veille__grid">
+
+        <div class="veille-card reveal">
+          <div class="veille-card__icon">⚙️</div>
+          <div class="veille-card__content">
+            <h3 class="veille-card__name">Systèmes & Virtualisation</h3>
+            <p class="veille-card__desc">Administration Windows/Linux (CLI, AD, GPO, DFS). Virtualisation de niveau 1 (ESXi, Proxmox), mise en œuvre de clusters Haute Disponibilité (HA), gestion iSCSI et stratégies de sauvegardes avec AOMEI.</p>
+            <div class="veille-card__tags">
+              <span class="pill">Windows Server</span><span class="pill">Linux</span><span class="pill">Proxmox</span><span class="pill">Cluster HA</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="veille-card reveal d1">
+          <div class="veille-card__icon">🌐</div>
+          <div class="veille-card__content">
+            <h3 class="veille-card__name">Infrastructures Réseaux</h3>
+            <p class="veille-card__desc">Création de réseaux complets PME (Projet Architek) : configuration Cisco (VLANs, routage inter-VLAN, NAT, ACL), mise en place de services (DNS, DHCP) et répartition de charge via HAProxy.</p>
+            <div class="veille-card__tags">
+              <span class="pill">Cisco</span><span class="pill">VLAN/Routage</span><span class="pill">HAProxy</span><span class="pill">ACL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="veille-card reveal d2">
+          <div class="veille-card__icon">🛡️</div>
+          <div class="veille-card__content">
+            <h3 class="veille-card__name">Cybersécurité & Conformité</h3>
+            <p class="veille-card__desc">Déploiement de pare-feux (Stormshield, FortiGate), tunnels VPN et application des règles ANSSI/RGPD. Simulation d'attaques par force brute sur SSH via Kali Linux (Hydra, Medusa).</p>
+            <div class="veille-card__tags">
+              <span class="pill">Stormshield</span><span class="pill">FortiGate</span><span class="pill">Kali Linux</span><span class="pill">ANSSI</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="veille-card reveal d3">
+          <div class="veille-card__icon">💻</div>
+          <div class="veille-card__content">
+            <h3 class="veille-card__name">Scripting & Développement</h3>
+            <p class="veille-card__desc">Automatisation de tâches d'administration avec des scripts PowerShell. Programmation Python (algorithmique), requêtes SQL et développement de sites web en PHP basés sur une architecture MVC.</p>
+            <div class="veille-card__tags">
+              <span class="pill">PowerShell</span><span class="pill">Python</span><span class="pill">PHP MVC</span><span class="pill">SQL</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section" id="certifications">
+
+      <p class="section__label reveal">Mes accréditations</p>
+      <h2 class="section__title reveal d1">Certifi<em>cations</em></h2>
+
+      <div class="cert__grid">
+
+        <article class="cert-card reveal">
+          <div class="cert-card__thumb cert-card__thumb--empty">🌐</div>
+          <h3 class="cert-card__name">Cisco CCNA 1 — Introduction to Networks</h3>
+          <p class="cert-card__issuer">Cisco Networking Academy — Concepts fondamentaux des réseaux, modèles OSI/TCP-IP, adressage IPv4/IPv6.</p>
+          <div class="cert-card__footer">
+            <span class="cert-card__date">2025</span>
+            <span class="badge badge--done">Obtenu</span>
+          </div>
+          <a href="img/CCNA1.pdf" target="_blank" rel="noopener" class="cert-card__pdf-btn">Voir le certificat ↗</a>
+        </article>
+
+        <article class="cert-card reveal d1">
+          <div class="cert-card__thumb cert-card__thumb--empty">🌐</div>
+          <h3 class="cert-card__name">Cisco CCNA 2 — Switching, Routing and Wireless Essentials</h3>
+          <p class="cert-card__issuer">Cisco Networking Academy — Commutation, routage, VLANs et protocoles avancés.</p>
+          <div class="cert-card__footer">
+            <span class="cert-card__date">2026</span>
+            <span class="badge badge--done">Obtenu</span>
+          </div>
+          <a href="img/CCNA2.pdf" target="_blank" rel="noopener" class="cert-card__pdf-btn">Voir le certificat ↗</a>
+        </article>
+
+        <article class="cert-card reveal d2">
+          <div class="cert-card__thumb cert-card__thumb--empty">🛡️</div>
+          <h3 class="cert-card__name">MOOC SecNumacadémie — ANSSI</h3>
+          <p class="cert-card__issuer">Agence Nationale de la Sécurité des Systèmes d'Information — Fondamentaux de la cybersécurité.</p>
+          <div class="cert-card__footer">
+            <span class="cert-card__date">2024</span>
+            <span class="badge badge--done">Obtenu</span>
+          </div>
+          <a href="img/mooc.pdf" target="_blank" rel="noopener" class="cert-card__pdf-btn">Voir le certificat ↗</a>
+        </article>
+
+        <article class="cert-card reveal d3">
+          <div class="cert-card__thumb cert-card__thumb--empty">🐍</div>
+          <h3 class="cert-card__name">Initiation à Python</h3>
+          <p class="cert-card__issuer">Formation Python — Programmation, structures de données, algorithmique et scripting.</p>
+          <div class="cert-card__footer">
+            <span class="cert-card__date">2024</span>
+            <span class="badge badge--done">Obtenu</span>
+          </div>
+          <a href="img/python.pdf" target="_blank" rel="noopener" class="cert-card__pdf-btn">Voir le certificat ↗</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section" id="projets">
+
+      <p class="section__label reveal">Ce que j'ai construit</p>
+      <h2 class="section__title reveal d1">Mes <em>Projets</em></h2>
+
+      <div class="projects__grid">
+
+        <article class="proj-card reveal">
+          <div class="proj-thumb">
+            <div class="tbg" style="background:linear-gradient(135deg,#1e1b4b,#312e81)"></div>
+            <span class="tem">🌐</span>
+            <div class="proj-overlay">
+              <a href="#" class="ov-btn prim">Voir le projet</a>
+              <a href="#" class="ov-btn">GitHub</a>
+            </div>
+          </div>
+          <div class="proj-body">
+            <h3 class="proj-title">Infrastructure AD à Haute Disponibilité sous Hyper-V</h3>
+            <p class="proj-desc">Déploiement d'une infra complète en HA sous Hyper-V, incluant la création du nœud AD02 directement intégré au cluster, avec GLPI, clients Windows et partage iSCSI.</p>
+            <div class="proj-tags">
+              <span class="pill">Hyper-V</span><span class="pill">GLPI</span><span class="pill">HA</span><span class="pill">Active Directory</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="proj-card reveal d1">
+          <div class="proj-thumb">
+            <div class="tbg" style="background:linear-gradient(135deg,#1a0533,#2d1b69)"></div>
+            <span class="tem">📡</span>
+            <div class="proj-overlay">
+              <a href="#" class="ov-btn prim">Voir le projet</a>
+              <a href="#" class="ov-btn">GitHub</a>
+            </div>
+          </div>
+          <div class="proj-body">
+            <h3 class="proj-title">Supervision Zabbix</h3>
+            <p class="proj-desc">Solution de supervision avec Zabbix : monitoring CPU, mémoire, services, alertes email et dashboard personnalisé.</p>
+            <div class="proj-tags">
+              <span class="pill">Zabbix</span><span class="pill">SNMP</span><span class="pill">Linux</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section" id="veille">
+
+      <p class="section__label reveal">Rester à jour</p>
+      <h2 class="section__title reveal d1">Veille <em>Informatique</em></h2>
+      <p class="veille__intro reveal d2">Les médias et plateformes que j'utilise au quotidien pour me tenir informée des actualités IT, cybersécurité et infrastructure.</p>
+
+      <div class="veille__grid">
+
+        <div class="veille-card reveal">
+          <div class="veille-card__icon">📺</div>
+          <div class="veille-card__content">
+            <h3 class="veille-card__name">YouTube</h3>
+            <p class="veille-card__desc">Chaînes : Micode </p>
+            <div class="veille-card__tags">
+              <span class="pill">Cybersécurité</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="veille-card reveal d1">
+          <div class="veille-card__icon">🐦</div>
+          <div class="veille-card__content">
+            <h3 class="veille-card__name">X / Twitter</h3>
+            <p class="veille-card__desc">Suivi de comptes spécialisés en cybersécurité, ANSSI, chercheurs en sécurité et acteurs de l'industrie IT.</p>
+            <div class="veille-card__tags">
+              <span class="pill">ANSSI</span><span class="pill">Threat Intel</span><span class="pill">Actu IT</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="veille-card reveal d2">
+          <div class="veille-card__icon">🎙️</div>
+          <div class="veille-card__content">
+            <h3 class="veille-card__name">Podcasts</h3>
+            <p class="veille-card__desc"> -> Underscore_</p>
+            <div class="veille-card__tags">
+              <span class="pill">Sécurité</span><span class="pill">IA</span><span class="pill">Actualités</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="veille-card reveal d1">
+          <div class="veille-card__icon">📰</div>
+          <div class="veille-card__content">
+            <h3 class="veille-card__name">it-connect</h3>
+            <p class="veille-card__desc">Tutoriels, cours et actualités techniques dédiés à l'administration systèmes, réseaux et à la sécurité.</p>
+            <div class="veille-card__tags">
+              <span class="pill">Sysadmin</span><span class="pill">Tutoriels</span><span class="pill">Windows/Linux</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="veille-card reveal d2">
+          <div class="veille-card__icon">💬</div>
+          <div class="veille-card__content">
+            <h3 class="veille-card__name">Reddit</h3>
+            <p class="veille-card__desc">Communautés r/netsec, r/sysadmin pour échanger sur les problématiques d'infrastructure et les alertes de sécurité.</p>
+            <div class="veille-card__tags">
+              <span class="pill">Communauté</span><span class="pill">Entraide</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+
+      <p class="section__label reveal">Des questions ?</p>
+      <h2 class="section__title reveal d1">Me <em>contacter</em></h2>
+
+      <div class="contact__layout">
+
+        <div class="contact__info reveal">
+          <p>Voici les différentes plateformes sur lesquelles vous pouvez me retrouver.</p>
+          <div class="contact__links">
+            <a href="mailto:meriembelmokhtar3@email.com" class="c-link">
+              <div class="c-link-icon">✉️</div>
+              <div class="c-link-text"><strong>Email</strong>meriembelmokhtar3@email.com</div>
+            </a>
+            <a href="https://www.linkedin.com/in/meriembmk" target="_blank" rel="noopener" class="c-link">
+              <div class="c-link-icon">💼</div>
+              <div class="c-link-text"><strong>LinkedIn</strong>linkedin.com/in/meriembmk</div>
+            </a>
+            <a href="https://github.com/meriembmk" target="_blank" rel="noopener" class="c-link">
+              <div class="c-link-icon">🐙</div>
+              <div class="c-link-text"><strong>GitHub</strong>github.com/meriembmk</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__form reveal d2">
+          <form novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Jean" autocomplete="given-name">
+              </div>
+              <div class="form-group">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Dupont" autocomplete="family-name">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Adresse email</label>
+              <input type="email" id="email" name="email" placeholder="jean@exemple.fr" autocomplete="email">
+            </div>
+            <div class="form-group">
+              <label for="sujet">Sujet</label>
+              <input type="text" id="sujet" name="sujet" placeholder="Offre d'alternance, projet…">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Décrivez votre demande…"></textarea>
+            </div>
+            <button type="submit" class="btn-cta form__submit">Envoyer le message</button>
+            <p class="form__success">✅ Message envoyé ! Je vous réponds très vite.</p>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <div class="modal-overlay" id="photoModal" role="dialog" aria-modal="true">
+    <div class="modal">
+      <button class="modal__close" id="modalClose" aria-label="Fermer">✕</button>
+      <div class="modal__img-wrap">
+        <img src="" alt="" class="modal__img" id="modalImg">
+      </div>
+      <div class="modal__body">
+        <p class="modal__title" id="modalTitle"></p>
+        <a href="" class="btn-ghost" id="modalDownload" download target="_blank">Télécharger ↓</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© 2026 Meriem BELMOKHTAR · <a href="#accueil">Retour en haut ↑</a></p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
